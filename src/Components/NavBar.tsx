@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <div className="NavBar">
-      <img src="./Logo.svg" alt="DrumsSet Logo" className="GameLogo logo"></img>
+      <img src="./GameLogo.svg" alt="DrumsSet Logo" className="GameLogo logo" />
       <div className="NavLinksContainer">
         <p className="NavLink">About Us</p>
       </div>
