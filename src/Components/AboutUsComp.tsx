@@ -1,3 +1,5 @@
+//Note: try to fix the invalid size css value
+
 const AboutUsComp = () => {
   return (
     <div className="AboutUsComp">
@@ -30,22 +32,34 @@ const AboutUsComp = () => {
           </a>
         </div>
       </section>
-      <section className="Contributers TransparentContainer"></section>
+      <section className="Contributers TransparentContainer">
+        <p className="ContributersHeader">Our Humble Team</p>
+        <div className="ContributersImages">
+          <a href="https://github.com/EngHussam23" target="_blank">
+            <img
+              src="./Profile Avatar.svg"
+              alt="Team Member Image"
+              className="TeamMemberImage"
+            />
+          </a>
+          <a href="https://github.com/EngHussam23" target="_blank">
+            <img
+              src="./Profile Avatar.svg"
+              alt="Team Member Image"
+              className="TeamMemberImage"
+            />
+          </a>
+          <a href="https://github.com/EngHussam23" target="_blank">
+            <img
+              src="./Profile Avatar.svg"
+              alt="Team Member Image"
+              className="TeamMemberImage"
+            />
+          </a>
+        </div>
+      </section>
     </div>
   );
 };
 
 export default AboutUsComp;
-
-/*
-<div className="NavBar">
-        <img
-          src="./GameLogo.svg"
-          alt="DrumsSet Logo"
-          className="GameLogo logo"
-        />
-        <div className="NavLinksContainer">
-          <p className="NavLink">About Us</p>
-        </div>
-      </div>
-      */
