@@ -1,13 +1,30 @@
 #root {
   display: flex;
   flex-direction: column;
+  margin: 40px;
+  width: 100%;
+  gap: 52px;
+  /*gap: 200px;*/
+}
+
+.TransparentContainer {
+  background-color: #f4f6fb26;
+  backdrop-filter: blur(4px);
+}
+
+/* Old #root
+#root {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   margin: 40px;
   align-items: normal;
   text-align: center;
   width: 100%;
   height: 100%;
+  gap: 25%;
 }
+*/
 
 .logo {
   will-change: filter;
@@ -27,13 +44,11 @@
   justify-content: space-between;
   padding: 20px 40px;
   border-radius: 20px;
-  background-color: #f4f6fb26;
-  backdrop-filter: blur(4px);
   height: fit-content;
 }
 
 .GameLogo {
-  width: 100px;
+  width: 120px;
 }
 
 .NavLink:hover {
@@ -48,9 +63,7 @@
   justify-content: space-between;
   align-items: stretch;
   padding: 52px;
-  margin: 72px 24%;
-  background-color: #f4f6fb26;
-  backdrop-filter: blur(4px);
+  margin: 0 25%;
   border-radius: 20px;
   gap: 32px;
 }
@@ -58,4 +71,96 @@
 .CTA {
   background-color: rgba(255, 255, 255, 0.1);
   border: #ffffff00 Solid 0;
+}
+
+/*Game Nav Bar Styles:
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
+}
+*/
+
+/*Game Screen Styles*/
+
+/*Settings Styles*/
+
+/*About Us Styles*/
+
+.AboutUsComp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  gap: 32px;
+}
+
+.AboutTheGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 52px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.AboutTheGameHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.BackIcon {
+  width: 32px;
+}
+
+.AboutTheGameHeader p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.AboutTheGameBody {
+  margin: 0;
+  font-size: 20px;
+}
+
+.AboutTheGameBody strong {
+  font-size: 36px;
+}
+
+.ToolsAndFrameworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 52px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.ToolsHeader {
+  margin: 0;
+  font-size: 20px;
+}
+
+.ToolsLogos {
+  display: flex;
+  align-items: center;
+}
+
+.ToolsLogos a {
+  margin: 0;
+}
+
+.ToolLogo {
+  height: 180;
+}
+
+.Contributers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 52px;
+  border-radius: 20px;
+  gap: 20px;
 }
